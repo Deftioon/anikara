@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+serde = { version = "1.0.229", features = ["std", "derive"] }
+config = "0.15.27"
+eframe = "0.37.0"
+serde_json = "1.0.154"
+futures-util = "0.3.34"
+rust_socketio = { version = "0.6.0", features = ["async"] }
+tokio = { version = "1.54.1", features = ["full"] }
